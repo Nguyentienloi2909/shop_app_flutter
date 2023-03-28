@@ -23,7 +23,7 @@ class SpashContent extends StatelessWidget {
             fontWeight: FontWeight.bold,
           ),
         ),
-        Text(text),
+        Text(text, textAlign: TextAlign.center,),
         const Spacer(
           flex: 2,
         ),
